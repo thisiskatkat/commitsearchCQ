@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/metatype">
+    <OCD id="com.searchgit.services.GoodbyeWorldService" name="%com.searchgit.services.GoodbyeWorldService.name" description="%com.searchgit.services.GoodbyeWorldService.description"/>
+    <Designate pid="com.searchgit.services.GoodbyeWorldService">
+        <Object ocdref="com.searchgit.services.GoodbyeWorldService"/>
+    </Designate>
+</metatype:MetaData>

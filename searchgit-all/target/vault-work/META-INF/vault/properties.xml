@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>com.searchgit - searchgit-all</comment>
+<entry key="createdBy">SG0205640</entry>
+<entry key="name">searchgit-all</entry>
+<entry key="created">2013-07-02T17:54:20.884+0200</entry>
+<entry key="groupId">com.searchgit</entry>
+<entry key="version">1.0.0-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.searchgit</entry>
+<entry key="description">Builds a CQ package containing all components of the 'Search Git' project. Useful for making formal
+        releases to QA and production environments for example.</entry>
+<entry key="artifactId">searchgit-all</entry>
+<entry key="path">/etc/packages/com.searchgit/searchgit-all.zip</entry>
+</properties>

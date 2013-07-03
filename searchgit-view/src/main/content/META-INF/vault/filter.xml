@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspaceFilter version="1.0">
+    <filter root="/apps/searchgit">
+        <exclude pattern="/apps/searchgit/install.*"/>
+        <exclude pattern="/apps/searchgit/runmodes.*"/>
+    </filter>
+    <filter root="/etc/clientlibs/searchgit"/>
+	<filter root="/etc/designs/searchgit">
+        <exclude pattern="/etc/designs/searchgit/jcr:content.*"/>
+    </filter>
+</workspaceFilter>
