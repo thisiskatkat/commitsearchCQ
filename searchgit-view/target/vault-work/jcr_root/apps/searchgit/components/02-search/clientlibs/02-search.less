@@ -1,26 +1,55 @@
 
-/*full site link*/
+#search {
+	padding: 0 20px 20px 40px;
+	margin: 0;
+	width: 50%;
+	
+	fieldset[name="basic-fields"]{
+		margin: 0 0 20px 0;
+		border:0;
+		padding: 0;
+	}
 
-.desktop-site{
-	background-color: #31302f;
-	padding:8px 10px;
-	a {
-		font-size: 0.750em;
-		line-height: 1.2em;
-		color:white;
+	label {
 		display: block;
-		text-decoration: none;
-		text-align: center;
-		&:hover{
-			color:white;
-			text-decoration: none;
+		margin: 30px 0 10px 0;
+	}
+	input {
+		display: block;
+		padding: 5px;
+		font-size: 1.2em;
+		width: 80%;
+		-webkit-border-radius: 2px;
+		border-radius: 2px;
+		border: 1px solid rgb(190, 190, 190);
+		margin-bottom: 12px;
+	}
+
+	button.submit-search {
+		border: none;
+		cursor: pointer;
+		outline: none;
+		background-color: rgb(255, 168, 100);
+		padding: 7px 35px;
+		color: white;
+		font-weight: bold;
+		-webkit-border-radius: 4px;
+		border-radius: 4px;
+		position: relative;
+		top:0;
+		box-shadow: 0 6px rgb(192, 117, 58);
+		
+		&:hover {
+			box-shadow: 0 4px rgb(192, 117, 58);
+			top: 2px;
+		}
+
+		&:active {
+			box-shadow: 0 0px rgb(192, 117, 58);
+			top: 6px;
 		}
 	}
+
 }
 
-.desktop-icon {
-	display: inline-block;
-	vertical-align: middle;
-	margin-left: 10px;
-}
 

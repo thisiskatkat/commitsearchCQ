@@ -11,5 +11,6 @@
 	<title>Search Git</title>
 
 	<link id="favicon" rel="icon" href="" type="image/x-icon">
+	<link href='http://fonts.googleapis.com/css?family=Cantarell:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
 	<cq:include script="scripts_head.jsp"/>
 </head>

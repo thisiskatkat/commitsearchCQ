@@ -2,5 +2,10 @@
 
 <%@ taglib prefix="cqbp-searchgit" uri="http://searchgit.com/taglibs/searchgit-taglib" %>
 
-<footer>Git Search Footer</footer>
+<footer>
+	adventure cat credits - <a href="http://octodex.github.com/adventure-cat/">http://octodex.github.com/adventure-cat/</a>
+
+	<!--  -->
+
+</footer>
 

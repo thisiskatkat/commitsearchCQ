@@ -5,8 +5,12 @@
 <cq:setContentBundle />
 
 <body>
-	<cq:include script="header.jsp" />
-	<cq:include script="center.jsp" />
-	<cq:include script="footer.jsp" />
+	<div class="wrapper">
+		<cq:include script="header.jsp" />
+		<cq:include script="center.jsp" />
+		<cq:include script="footer.jsp" />
+	</div>
+	
 	<cq:include script="scripts_bottom.jsp"/>
+
 </body>
