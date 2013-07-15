@@ -6,4 +6,4 @@
 
 <cq:include path="search" resourceType="searchgit/components/02-search"/>
 <cq:include path="results" resourceType="searchgit/components/03-results"/>
-
+<cq:include path="parBaseMain" resourceType="foundation/components/parsys"/>

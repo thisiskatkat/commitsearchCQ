@@ -1,6 +1,8 @@
 
 function processSearch(json, lookingFor) {
 
+    
+
     // create array of commit messages
     var commitMessages = [];
     for (var i=0; i<json.data.length; i++) {
@@ -25,7 +27,9 @@ function processSearch(json, lookingFor) {
 
     // show results 
     $("#results").empty();
+
     if (results.legth < 1) {
+        $("#results").css('display','block');
         $("#results").append('<li class="result-item"><p>No commit messages found.</p></li>');
     }
     else {   
@@ -45,10 +49,11 @@ $('#search').submit(function() {
     var lookingFor = $('#query')[0].value;
 
     $.ajax({
-        url: "https://api.github.com/repos/" + ownerName + "/" + repoName + "/commits", //what to do if repo or browser does not exist, how to validate it on the fly in a user friendly way?
+        url: "https://api.github.com/repos/" + ownerName + "/" + repoName + "/commits", //what to do if repo or owner does not exist, how to validate it on the fly in a user friendly way?
         dataType: "jsonp", 
         success: processSearch,
         error: function() {
+            $("#results").css('display','block');
             $("#results").append('<li class="result-item"><p>Couldn\'t reach GitHub API.</p></li>');
         }
     })
