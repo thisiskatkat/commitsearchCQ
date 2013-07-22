@@ -4,14 +4,52 @@
           jcr:language="de"
           jcr:mixinTypes="[mix:language]"
           jcr:primaryType="sling:Folder">
-    <SSS
+
+
+    <main-title
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="SSS"
-        sling:message="Mietwagen suchen"/>
-    <test
+        sling:key="main-title"
+        sling:message="DEHledání textu v GitHub commit messagích"/>
+
+
+    <repo-title
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="test"
-        sling:message="Test DE"/>
+        sling:key="repo-title"
+        sling:message="DERepository ve kterém chcete hledat"/>
+    <owner-plchldr
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="owner-plchldr"
+        sling:message="Vlastník repository, např. twitter"/>
+    <repo-plchldr
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="repo-plchldr"
+        sling:message="Název repository, např. bootstrap"/>
+    <query-title
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="query-title"
+        sling:message="Výrazy který hledáte v commit message"/>
+    <query-placeholder
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="query-placeholder"
+        sling:message="např. octocat fix"/>
+    <search-button
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="search-button"
+        sling:message="Hledat"/>
+
+
+    <footer-img-credit
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="footer-img-credit"
+        sling:message="Autorem adventure cat je"/>
+
+
 </jcr:root>

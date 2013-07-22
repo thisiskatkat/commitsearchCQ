@@ -4,14 +4,52 @@
           jcr:language="en"
           jcr:mixinTypes="[mix:language]"
           jcr:primaryType="sling:Folder">
-    <SSS
+
+
+    <main-title
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="SSS"
-        sling:message="Find Cars"/>
-    <test
+        sling:key="main-title"
+        sling:message="GitHub commit message search"/>
+
+
+    <repo-title
         jcr:mixinTypes="[sling:Message]"
         jcr:primaryType="nt:folder"
-        sling:key="test"
-        sling:message="Test EN"/>
+        sling:key="repo-title"
+        sling:message="Repository you want to look into"/>
+    <owner-plchldr
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="owner-plchldr"
+        sling:message="Repository owner, eg. twitter"/>
+    <repo-plchldr
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="repo-plchldr"
+        sling:message="Repository name, eg. bootstrap"/>
+    <query-title
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="query-title"
+        sling:message="Words you are looking for in a commit message"/>
+    <query-placeholder
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="query-placeholder"
+        sling:message="eg. octocat fix"/>
+    <search-button
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="search-button"
+        sling:message="Search"/>
+
+
+    <footer-img-credit
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="footer-img-credit"
+        sling:message="Adventure cat credits"/>
+
+
 </jcr:root>
