@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:language="cs"
+          jcr:mixinTypes="[mix:language]"
+          jcr:primaryType="sling:Folder">
+
+
+    <main-title
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="main-title"
+        sling:message="Hledání textu v GitHub commit messagích"/>
+
+
+    <repo-title
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="repo-title"
+        sling:message="Repository ve kterém chcete hledat"/>
+    <owner-plchldr
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="owner-plchldr"
+        sling:message="Vlastník repository, např. twitter"/>
+    <repo-plchldr
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="repo-plchldr"
+        sling:message="Název repository, např. bootstrap"/>
+    <query-title
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="query-title"
+        sling:message="Výraz který hledáte v commit message"/>
+    <query-placeholder
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="query-placeholder"
+        sling:message="např. octocat fix"/>
+    <search-button
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="search-button"
+        sling:message="Hledat"/>
+
+
+    <footer-img-credit
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="footer-img-credit"
+        sling:message="Autorem adventure cat je"/>
+
+
+</jcr:root>

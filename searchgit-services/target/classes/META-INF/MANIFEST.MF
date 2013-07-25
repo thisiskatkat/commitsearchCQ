@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1374486719742
+Bnd-LastModified: 1374746688640
 Build-Jdk: 1.6.0_39
 Built-By: SG0205640
 Bundle-Activator: com.searchgit.services.osgi.Activator

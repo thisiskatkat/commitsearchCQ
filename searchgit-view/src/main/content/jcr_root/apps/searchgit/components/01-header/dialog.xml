@@ -1,3 +1,29 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+     helpPath="en/cq/current/wcm/default_components.html#Text"
+    title="Header Title"
+    xtype="dialog">
+
+    <items jcr:primaryType="cq:WidgetCollection">
+        <panel
+            jcr:primaryType="cq:Widget"
+            anchor="100%"
+            title="Settings"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <title
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Text"
+                    name="./title"
+                    autoHeight="true"
+                    xtype="textfield"/>
+            </items>
+        </panel>
+    </items>
+</jcr:root>
+ -->
+
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Dialog"
@@ -13,3 +39,4 @@
         </items>
     </items>
 </jcr:root>
+
