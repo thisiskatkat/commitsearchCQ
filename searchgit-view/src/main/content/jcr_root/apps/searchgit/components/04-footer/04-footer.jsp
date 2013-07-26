@@ -3,9 +3,13 @@
 <cq:setContentBundle />
 
 <footer>
-	<fmt:message key="footer-img-credit" /> - <a href="http://octodex.github.com/adventure-cat/">http://octodex.github.com/adventure-cat/</a>
 
-	<!--  -->
+	<ul class="languages">
+		<li><a href="/content/searchgit/cs/homepage.html">Czech version</a></li>
+		<li><a href="/content/searchgit/en/homepage.html">English version</a></li>
+	</ul>
+	
+	<fmt:message key="footer-img-credit" /> - <a href="http://octodex.github.com/adventure-cat/">http://octodex.github.com/adventure-cat/</a>	
 
 </footer>
 
