@@ -53,7 +53,7 @@ var resultsBox = $("#results");
 
 function processSearch(json) {
 
-    var commitMessages = [], lookingFor = $('#query')[0].value, tempArray = [], results = [];
+    var commitMessages = [], lookingFor = $('#query')[0].value, tempArray = [], searchResults = [];
 
     // create array of commit messages
     for (var i = 0, iLen = json.data.length; i < iLen; i++) {
@@ -70,17 +70,18 @@ function processSearch(json) {
     // return whole commits with the same indexes
     for (var n = 0, nLen = tempArray.length; n < nLen;n++) {
         i = tempArray[n];
-        results.push(json.data[i].commit);
+        //searchResults.push(json.data[i].commit);
+        searchResults.push(json.data[i]);
     }
 
     // show results 
     resultsBox.empty();
-    if (results.length < 1) {
+    if (searchResults.length < 1) {
         resultsBox.css('display','block').append('<li class="result-item"><p>No commit messages found.</p></li>');
     }
     else {   
-        for (var i = 0, iLen = results.length; i < iLen; i++) {
-            resultsBox.css('display','block').append('<li class="result-item"><h3><a href="'+ results[i].html_url +'">'+ results[i].message +'</a></h3><p>by <b>'+ results[i].committer.name +'</b></p><p>'+ results[i].committer.date.slice(0,10) +'</p></li>');
+        for (var i = 0, iLen = searchResults.length; i < iLen; i++) {
+            resultsBox.css('display','block').append('<li class="result-item"><h3><a href="'+ searchResults[i].html_url +'">'+ searchResults[i].commit.message +'</a></h3><p>by <b>'+ searchResults[i].commit.committer.name +'</b></p><p>'+ searchResults[i].commit.committer.date.slice(0,10) +'</p></li>');
         }
     }
 }
