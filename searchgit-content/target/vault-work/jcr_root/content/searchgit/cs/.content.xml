@@ -5,9 +5,9 @@
         cq:designPath="/etc/designs/searchgit"
         cq:lastModified="{Date}2013-07-18T10:09:39.364+02:00"
         cq:lastModifiedBy="admin"
-        cq:template="/apps/searchgit/templates/homepage"
+        cq:template="/apps/searchgit/templates/exampletemplate"
         jcr:primaryType="cq:PageContent"
         jcr:title="cs"
-        sling:resourceType="searchgit/components/homepage"/>
+        sling:resourceType="searchgit/components/examplepage"/>
     <homepage/>
 </jcr:root>

@@ -7,7 +7,7 @@
         cq:lastModifiedBy="admin"
         cq:template="/apps/searchgit/templates/exampletemplate"
         jcr:primaryType="cq:PageContent"
-        jcr:title="de"
+        jcr:title="cs"
         sling:resourceType="searchgit/components/examplepage"/>
     <homepage/>
 </jcr:root>
